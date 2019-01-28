@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Pipe Demo';
-  isFinish: boolean = false;
   today = new Date();
   file = { name: 'logo.svg', size: 2120109, type: 'image/svg' };
 
-  finish(){
-    this.isFinish = !this.isFinish 
-  }
 }
